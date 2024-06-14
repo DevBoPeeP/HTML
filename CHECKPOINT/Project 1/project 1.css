@@ -1,0 +1,83 @@
+/* background image function */
+body {
+  background-image: url(images/bc3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.heading {
+  padding: 20px;
+  font-size: larger;
+}
+/* display function */
+.top-page {
+  display: inline-flex;
+}
+.navbar {
+  width: 1000px;
+  height: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+/* hover effect applied */
+.navbar a:hover {
+  background-color: aliceblue;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 10px;
+}
+/* opacity */
+h3 {
+  text-align: center;
+  opacity: 0.5;
+}
+/* positioning */
+.form {
+  position: relative;
+  width: 650px;
+  height: 200px;
+  color: darkgrey;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
+}
+
+.mail {
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.button {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  top: 7px;
+  right: 50px;
+  background-color: brown;
+  border-radius: 20px;
+}
+
+.button:hover {
+  color: aliceblue;
+}
+
+footer {
+  color: rgb(186, 109, 8);
+}
